@@ -1,12 +1,12 @@
 {
   "type": "rfq-temp",
-  "name": "02",
+  "name": "inlet",
   "arcPeriod": 60000,
-  "timeStamp": 1649848413958,
+  "timeStamp": 1649929545345,
   "watchdog": {
     "action": "reading",
     "type": "scalar",
-    "value": 6,
+    "value": 4356,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -23,47 +23,7 @@
       }
     }
   },
-  "temp1": {
-    "action": "reading",
-    "type": "scalar",
-    "value": 20.3,
-    "unit": "C",
-    "alarm": {
-      "value": 0,
-      "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
-      },
-      "notify": {
-        "name": "",
-        "number": "",
-        "time": 0
-      }
-    }
-  },
-  "temp2": {
-    "action": "reading",
-    "type": "scalar",
-    "value": 20.3,
-    "unit": "C",
-    "alarm": {
-      "value": 0,
-      "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
-      },
-      "notify": {
-        "name": "",
-        "number": "",
-        "time": 0
-      }
-    }
-  },
-  "temp3": {
+  "right": {
     "action": "reading",
     "type": "scalar",
     "value": 20.2,
@@ -83,7 +43,7 @@
       }
     }
   },
-  "temp4": {
+  "bottom": {
     "action": "reading",
     "type": "scalar",
     "value": 20.3,
@@ -103,10 +63,10 @@
       }
     }
   },
-  "temp5": {
+  "left": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
+    "value": 20.1,
     "unit": "C",
     "alarm": {
       "value": 0,
@@ -123,10 +83,10 @@
       }
     }
   },
-  "temp6": {
+  "top": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
+    "value": 20.3,
     "unit": "C",
     "alarm": {
       "value": 0,
@@ -143,27 +103,7 @@
       }
     }
   },
-  "temp7": {
-    "action": "reading",
-    "type": "scalar",
-    "value": 0,
-    "unit": "C",
-    "alarm": {
-      "value": 0,
-      "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
-      },
-      "notify": {
-        "name": "",
-        "number": "",
-        "time": 0
-      }
-    }
-  },
-  "temp8": {
+  "coupler": {
     "action": "reading",
     "type": "scalar",
     "value": 20,
