@@ -1,0 +1,9 @@
+MQTTSUBSCRIBE=mirrotron/rfq-temp/inlet/setting/#
+MQTTCLIENTID=mirrotron-rfq-temp-tray-inlet
+MQTTSERVERIP=xxx
+MQTTUSERNAME=yyy
+MQTTPASSWORD=zzz
+SERIALPORT=/dev/serial0
+SERIALBUFSIZE=20
+PM2NAME=mirrotron-rfq-temp-inlet
+NODEREDCONFIGSECRET=aaa
