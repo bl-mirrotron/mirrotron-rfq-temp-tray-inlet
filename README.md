@@ -1,5 +1,5 @@
 # RFQ Inlet Temperature Tray
-* mirrotron-rfq-temp-cube <a href="https://github.com/bl-mirrotron/mirrotron-rfq-temp-tray-inlet" target="_blank">source code</a>
+* mirrotron-rfq-temp-tray-inlet <a href="https://github.com/bl-mirrotron/mirrotron-rfq-temp-tray-inlet" target="_blank">source code</a>
 * [Cooling System Overview](https://bl-mirrotron.github.io/#cooling-system)
 
 The function of the RFQ Inlet Temperature Tray is to receive data and check alarm status from the <a href="https://bl-mirrotron.github.io/mirrotron-rfq-temp-cube/" target="_blank">RFQ Temperature Cube</a> mounted on the inlet header as shown in Figure 1. The tray is installed on a Raspberry Pi ZeroW as shown in Figure 2. The Raspberry Pi ZeroW is actually mounted on the underside of the temperature cube as shown in Figure 3.
